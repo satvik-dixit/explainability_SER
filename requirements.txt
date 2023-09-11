@@ -1,3 +1,15 @@
 notebook
 numpy
 pandas
+os
+tqdm
+glob
+random
+matplotlib
+librosa
+soundfile
+opensmile
+serab_byols
+seaborn
+sklearn
+warnings
