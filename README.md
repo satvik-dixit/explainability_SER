@@ -18,7 +18,7 @@ To get started with the code and replicate our experiments, follow these steps:
 
 3. ``` pip install -r requirements.txt ``` <TODO @satvik: add a _requirements.txt_ file>
 
-4. Explore the Jupyter notebook ```Explainability_SER.ipynb``` for a detailed tutorial on the experiments described in the paper. 
+4. Explore the Jupyter notebook ```SER_explainability_tutorial.ipynb``` for a detailed tutorial on the experiments described in the paper. 
 
 ## Citation
 Hopefully, a paper will be published soon :) 
