@@ -15,11 +15,11 @@ This repository is organized as follows:
 To get started with the code and replicate our experiments, follow these steps:
 
 
-1. Clone this repository to your local machine: ``` git clone https://github.com/satvik-dixit/explainability_ICASSP_2024.git ```
+1. Clone this repository to your local machine: ```git clone https://github.com/satvik-dixit/explainability_ICASSP_2024.git ```
 
-2. ``` conda create -n ser_env python=3.9 ```
+2. ```conda create -n ser_env python=3.9 ```
 
-3. ``` pip install -r requirements.txt ```
+3. ```pip install -r requirements.txt ```
 
 4. Explore the Jupyter notebook ```SER_explainability_tutorial.ipynb``` for a detailed tutorial on the experiments described in the paper. 
 
