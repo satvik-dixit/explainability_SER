@@ -6,10 +6,10 @@ Speech emotion recognition (SER) is used for many applications including mental 
 
 ## Repository Structure
 This repository is organized as follows: 
-- ``` SER_explainability_tutorial.ipynb```: A Jupyter notebook providing a step-by-step tutorial for replicating the study's results and conducting the interpretability analysis.
-- ``` requirements.txt```: A file containing the required Python dependencies for running the code in the notebook.
-- ``` LICENSE```: The license file governing the use and distribution of the code and resources in this repository.
-- ``` README.md```: The readme file you are currently reading.
+- ```SER_explainability_tutorial.ipynb```: A Jupyter notebook providing a step-by-step tutorial for replicating the study's results and conducting the interpretability analysis.
+- ```requirements.txt```: A file containing the required Python dependencies for running the code in the notebook.
+- ```LICENSE```: The license file governing the use and distribution of the code and resources in this repository.
+- ```README.md```: The readme file you are currently reading.
 
 ## Getting Started
 To get started with the code and replicate our experiments, follow these steps:
