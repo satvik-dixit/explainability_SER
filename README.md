@@ -24,6 +24,6 @@ To get started with the code and replicate our experiments, follow these steps:
 Hopefully, a paper will be published soon :) 
 
 # Questions and Issues
-If you have any questions or encounter any issues while using this repository, please feel free [to open an issue]([https://pages.github.com/](https://github.com/satvik-dixit/explainability_ICASSP_2024/issues). We are here to assist you.
+If you have any questions or encounter any issues while using this repository, please feel free [to open an issue]([https://pages.github.com/](https://github.com/satvik-dixit/explainability_ICASSP_2024/issues)). We are here to assist you.
 
 Thank you for your interest in our research, and we hope this repository proves valuable in your exploration of deep learning embeddings for speech emotion recognition and interpretability analysis.
