@@ -16,7 +16,7 @@ To get started with the code and replicate our experiments, follow these steps:
 
 2. ``` conda create -n ser_env python=3.9 ```
 
-3. ``` pip install -r requirements.txt ``` <TODO @satvik: add a _requirements.txt_ file>
+3. ``` pip install -r requirements.txt ``` <TODO @satvik: please edit the _requirements.txt_ file>
 
 4. Explore the Jupyter notebook ```SER_explainability_tutorial.ipynb``` for a detailed tutorial on the experiments described in the paper. 
 
