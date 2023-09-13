@@ -26,6 +26,63 @@ To get started with the code and replicate our experiments, follow these steps:
 ## Citation
 Hopefully, a paper will be published soon :) 
 
+# Supplementary Results
+
+Anger:
+| Feature                       | Scores               |
+|-------------------------------|----------------------|
+| slopeUV0-500\_sma3nz\_amean   | [0.093, 0.878, 0.901] |
+| loudness\_sma3\_meanRisingSlope | [0.084, 0.573, 0.79]  |
+| hammarbergIndexV\_sma3nz\_amean | [0.083, 0.938, 0.975] |
+| alphaRatioV\_sma3nz\_amean     | [0.077, 0.948, 0.956] |
+| mfcc2V\_sma3nz\_amean          | [0.07, 0.933, 0.939]  |
+
+Fear:
+| Feature                                   | Scores               |
+|-------------------------------------------|----------------------|
+| shimmerLocaldB\_sma3nz\_stddevNorm         | [0.11, 0.694, 0.554] |
+| F0semitoneFrom27.5Hz\_sma3nz\_stddevNorm   | [0.099, 0.549, 0.467] |
+| loudness\_sma3\_percentile50.0             | [0.087, 0.738, 0.909] |
+| loudness\_sma3\_meanFallingSlope          | [0.082, 0.573, 0.549] |
+| logRelF0-H1-H2\_sma3nz\_amean             | [0.082, 0.593, 0.911] |
+
+Neutrality:
+| Feature                      | Scores               |
+|------------------------------|----------------------|
+| jitterLocal\_sma3nz\_amean   | [0.301, 0.536, 0.677] |
+| StddevUnvoicedSegmentLength   | [0.29, 0.862, 0.893]  |
+| mfcc1\_sma3\_amean            | [0.285, 0.7, 0.898]   |
+| loudnessPeaksPerSec           | [0.279, 0.562, 0.703] |
+| F2frequency\_sma3nz\_amean    | [0.245, 0.322, 0.848] |
+
+Joy:
+| Feature                                    | Scores               |
+|--------------------------------------------|----------------------|
+| loudness\_sma3\_meanFallingSlope           | [1.903, 0.633, 0.795] |
+| F0semitoneFrom27.5Hz\_sma3nz\_pctlrange0-2 | [1.699, 0.284, 0.697] |
+| HNRdBACF\_sma3nz\_amean                    | [1.658, 0.904, 0.872] |
+| equivalentSoundLevel\_dBp                 | [1.397, 0.655, 0.726] |
+| StddevVoicedSegmentLengthSec               | [1.178, 0.507, 0.184] |
+
+Sadness:
+| Feature                        | Scores                |
+|--------------------------------|-----------------------|
+| MeanUnvoicedSegmentLength       | [0.389, 0.564, 0.918] |
+| slopeV500-1500\_sma3nz\_amean   | [0.358, -0.029, 0.711]|
+| StddevUnvoicedSegmentLength     | [0.356, 0.654, 0.783] |
+| hammarbergIndexV\_sma3nz\_amean | [0.352, 0.741, 0.953] |
+| F3frequency\_sma3nz\_amean      | [0.346, 0.712, 0.685] |
+
+Disgust:
+| Feature                       | Scores                |
+|-------------------------------|-----------------------|
+| F1frequency\_sma3nz\_stddevNorm | [1.923, 0.674, 0.369] |
+| loudness\_sma3\_meanFallingSlope | [1.731, 0.719, 0.724] |
+| mfcc4\_sma3\_amean             | [1.422, 0.825, 0.953] |
+| HNRdBACF\_sma3nz\_stddevNorm   | [1.414, 0.695, 0.324] |
+| loudnessPeaksPerSec            | [1.199, 0.592, 0.628] |
+
+
 # Questions and Issues
 If you have any questions or encounter any issues while using this repository, please feel free [to open an issue](https://github.com/satvik-dixit/explainability_ICASSP_2024/issues). We are here to assist you.
 
