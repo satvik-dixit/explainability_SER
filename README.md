@@ -28,7 +28,10 @@ Hopefully, a paper will be published soon.
 
 # Supplementary Results
 
-Scores: feature importance (absolute standardized coefficient from logistic regression), Pearson's r all dimensions, Pearson's r top dimensions
+Scores: 
+- feature importance (absolute standardized coefficient from logistic regression)
+- Pearson's r all dimensions
+- Pearson's r top dimensions 
 
 Anger:
 | Feature                       | Scores               |
