@@ -12,7 +12,8 @@ This repository is organized as follows:
 - ```README.md```: The readme file you are currently reading.
 - ```import_functions.py```: A file with the functions to import and preprocess datasets.
 - ```classification_functions.py```: A file with the functions for SER classification and calculating feature importance.
-- ```prediction_functions.py```:  A file with the functions for prediction and summarising results.
+- ```prediction_functions.py```:  A file with the functions for predicting eGeMAPS features from some or all dimensions of Hybrid BYOL-S embeddings
+
 
 ## Getting Started
 To get started with the code and replicate our experiments, follow these steps:
