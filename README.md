@@ -10,6 +10,9 @@ This repository is organized as follows:
 - ```requirements.txt```: A file containing the required Python dependencies for running the code in the notebook.
 - ```LICENSE```: The license file governing the use and distribution of the code and resources in this repository.
 - ```README.md```: The readme file you are currently reading.
+- ```import_functions.py```: A file with the functions to import and preprocess datasets.
+- ```classification_functions.py```: A file with the functions for SER classification and calculating feature importance.
+- ```prediction_functions.py```:  A file with the functions for prediction and summarising results.
 
 ## Getting Started
 To get started with the code and replicate our experiments, follow these steps:
