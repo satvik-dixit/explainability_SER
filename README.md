@@ -24,9 +24,11 @@ To get started with the code and replicate our experiments, follow these steps:
 4. Explore the Jupyter notebook ```SER_explainability_tutorial.ipynb``` for a detailed tutorial on the experiments described in the paper. 
 
 ## Citation
-Hopefully, a paper will be published soon :) 
+Hopefully, a paper will be published soon.
 
 # Supplementary Results
+
+Scores: feature importance (absolute standardized coefficient from logistic regression), Pearson's r all dimensions, Pearson's r top dimensions
 
 Anger:
 | Feature                       | Scores               |
