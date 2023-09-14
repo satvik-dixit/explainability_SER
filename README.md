@@ -30,8 +30,8 @@ Hopefully, a paper will be published soon.
 
 Scores: 
 - feature importance (absolute standardized coefficient from logistic regression)
-- Pearson's r all dimensions
-- Pearson's r top dimensions 
+- Pearson's r between true labels and predicted labels using all Hybrid BYOL-S dimensions
+- Pearson's r between true labels and predicted labels using top Hybrid BYOL-S dimensions
 
 Anger:
 | Feature                       | Scores               |
