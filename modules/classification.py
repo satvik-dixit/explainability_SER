@@ -39,7 +39,6 @@ def label_division(embeddings_array, labels, required_labels, speakers):
 
     return final_embeddings_dict, final_labels_dict, final_speakers_list_dict
 
-
 # function for combining one emotion (50%) and the rest of the 5 emotions (10% each)
 
 def emotion_all_merger(emotion, other_emotions, embeddings_dict, speakers_dict, num=45):
@@ -198,7 +197,7 @@ def plot_top_performance(e, importance_dict):
   Returns
   ------------
   x_val: int
-    The size of the minimal set of deimensions of Hybrid BYOL-S for best performance
+    The size of the minimal set of dimensions of Hybrid BYOL-S for best performance
   max_performance: int
     The max performance of the top dimensions of Hybrid BYOL-S 
 
