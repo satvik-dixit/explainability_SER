@@ -1,6 +1,5 @@
 import shap
 import numpy as np
-import matplotlib.pyplot as plt
 
 def feature_importance_method(X, y, feature_names, trained_model):
     explainer = shap.Explainer(trained_model, X)

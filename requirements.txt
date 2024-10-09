@@ -1,15 +1,15 @@
 notebook
 numpy
 pandas
-os
 tqdm
-glob
-random
 matplotlib
 librosa
 soundfile
 opensmile
-serab_byols
+serab_byols @ git+https://github.com/GasserElbanna/serab-byols.git
 seaborn
-sklearn
-warnings
+scikit-learn
+torch
+torchaudio
+transformers
+kaggle
