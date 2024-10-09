@@ -1,0 +1,64 @@
+fail_fast: false
+
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.10
+    hooks:
+      - id: ruff
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.10.0
+    hooks:
+      - id: mypy
+
+  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.13.0
+    hooks:
+      - id: pretty-format-yaml
+        args:
+          - --autofix
+          - --indent=2
+      - id: pretty-format-toml
+        args:
+          - --autofix
+          - --indent=2
+          - --no-sort
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+        args: [--maxkb=15000]
+      - id: check-case-conflict
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: pretty-format-json
+        args:
+          - --autofix
+          - --indent=4
+          - --no-sort-keys
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-json
+      - id: check-toml
+      - id: detect-private-key
+      - id: name-tests-test
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+
+  - repo: https://github.com/hija/clean-dotenv
+    rev: v0.0.7
+    hooks:
+      - id: clean-dotenv
+
+  - repo: local
+    hooks:
+      - id: yaml-file-extension
+        name: Prefer .yaml over .yml.
+        entry: YAML files must have .yaml extension.
+        language: fail
+        files: \.yml$
