@@ -6,7 +6,6 @@ matplotlib
 librosa
 soundfile
 opensmile
-serab_byols @ git+https://github.com/GasserElbanna/serab-byols.git
 seaborn
 scikit-learn
 torch
