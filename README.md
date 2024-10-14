@@ -35,7 +35,7 @@ To get started, follow the steps below:
 
       - Log into your Kaggle account.
 
-      - Navigate to your account settings, and create an API token. Fill the `kaggle.json` file, which must be structured as the `kaddle.json.example` file. 
+      - Navigate to your account settings, and create an API token. Fill the `kaggle.json` file, which must be structured as the `kaggle.json.example` file. 
 
 4. **Run the Jupyter Notebooks:** 
 
