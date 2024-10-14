@@ -10,6 +10,37 @@ Speech emotion recognition (SER) is used for many applications including mental 
 - ```notebooks``` contains a full demo of our method being applied to the RAVDESS dataset and a notebook to get all the plots 
 - ```modules``` contains code for feature extraction, preprocessing, emotion classification, feature importance and regression 
 
+## Installation
+
+To get started, follow the steps below:
+
+1. **Create a Conda environment with Python 3.10:**
+
+      ```bash
+      conda create -n myenv python=3.10
+      conda activate myenv
+      ```
+
+2. **Install dependencies:**
+
+      After activating the environment, run the following command to install the required dependencies:
+
+      ```bash
+      pip install -r requirements.txt
+      ```
+
+3. **Create a `kaggle.json` file:**
+
+      You will need a Kaggle account to access certain datasets. Follow these steps:
+
+      - Log into your Kaggle account.
+
+      - Navigate to your account settings, and create an API token. Fill the `kaggle.json` file, which must be structured as the `kaddle.json.example` file. 
+
+4. **Run the Jupyter Notebooks:** 
+
+      Navigate to the notebook folder and run the `.ipynb` files in Jupyter Notebook.
+
 ## Citation
 ```
 @misc{dixit2024explainingdeeplearningembeddings,

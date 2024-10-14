@@ -12,3 +12,6 @@ torch
 torchaudio
 transformers
 kaggle
+jupyter
+ipywidgets
+shap
